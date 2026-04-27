@@ -25,7 +25,7 @@ Install esp32 3.x atau update jika versi lama. bila sudah siap install button ak
 
 <img width="881" height="516" alt="image" src="https://github.com/user-attachments/assets/f3459e72-fd74-4494-8fe2-b649b0a33fbe" /> 
 
-### Meletakkan ESP32 C3 super Minmi dalam Mode Bootloader
+### Meletakkan ESP32 C3 super Mini dalam Mode Bootloader buat kali pertama
 
 Sambungkan ESP32 C3 Super Mini ke komputer bagi tujuanbesedia untuk muat turunkan kod dari Komp[uter ke ESP32 menggunakan port USB
 Langkah :
