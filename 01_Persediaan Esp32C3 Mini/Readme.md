@@ -6,7 +6,8 @@ pengunaannya tenaga dengan kecekapan kuasayang rendah ketika mod deep sleep. Ian
 
 
 ## ttttttt
-xxxxxxx
+<img width="915" height="485" alt="image" src="https://github.com/user-attachments/assets/3c1cb27b-ca9c-4549-bbbd-9f5d6dff6cd6" />
+
 
 ##tttttttt
 xxxxxxxxx
