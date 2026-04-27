@@ -24,43 +24,5 @@ Install esp32 3.x atau update jika versi lama. bila sudah siap install button ak
 
 <img width="881" height="516" alt="image" src="https://github.com/user-attachments/assets/f3459e72-fd74-4494-8fe2-b649b0a33fbe" /> 
 
-
 ```
 
-
-# SENSOR DHT22 (AM2301) - baca suhu dan humiditi
-## Section 1: Header
-```
-xxxxxx
-```
-
-xxxxxx
-```
-## Section 2 : void setup
-```
-xxxxxxx
-```
-## Section 3 : void loop
-```
-xxxxxxxx
-
-```
-
-# ANALOG SENSOR INPUT
-
-## Section 3 : void loop - baca semua jenis analog sensor
-### Contoh analog sensor LDR
-```
-xxxxxxxxxx
-```
-# Kawalan MQTT (subscribe)
-## Letak kod ini dalam fungsi - void messageReceived()
-## Kawalan Buzzer ( Subscribe )
-```
-xxxxxxxxxxx 
-```
-## Kawalan Relay  ( Subscribe )
-```
-
- xxxxxxxxxxxxx
-```
