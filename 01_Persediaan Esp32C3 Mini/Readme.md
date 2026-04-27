@@ -11,7 +11,7 @@ pengunaannya tenaga dengan kecekapan kuasayang rendah ketika mod deep sleep. Ian
 
 ## *Koding ESP32 C3 dengan Arduino IDE* 
 
-*1 - Muat Turun ARduino IDE dan install dalam PC anda ( https://www.arduino.cc/en/software/ )*
+**1 - Muat Turun ARduino IDE dan install dalam PC anda ( https://www.arduino.cc/en/software/ )**
 <img width="1408" height="612" alt="image" src="https://github.com/user-attachments/assets/2e063f55-0d5f-425f-9542-eedec33fb3d4" />
 
 
