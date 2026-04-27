@@ -5,7 +5,7 @@ ESP32 Super Mini adalah Developement Board berasaskan dari Cip Espressif ESP32-C
 pengunaannya tenaga dengan kecekapan kuasayang rendah ketika mod deep sleep. Ianya terbina dengan siap dengan WiFi dan Bluetooth. ESP32-C3 Super mini adalah cip sigle-core dengan akitektur pemproses RiSC-V 32Bit.
 
 
-## ttttttt
+## ESP32-C3 Super Mini - Rajah Kedudukan Pin (Pin Layout)
 <img width="915" height="485" alt="image" src="https://github.com/user-attachments/assets/3c1cb27b-ca9c-4549-bbbd-9f5d6dff6cd6" />
 
 
