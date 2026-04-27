@@ -1,5 +1,8 @@
 # **IoT Project Board - ESP32-C3 SuperMini 2026**
-# **IoT MQTT**
+# **ESP32 C3 Super Mini**
+
+<img width="1124" height="775" alt="image" src="https://github.com/user-attachments/assets/8ec185af-bf3f-4186-80b0-86212c0f5705" />
+
 
 ## install MQTT Library
 MQTT by Joel Gaehwiler
