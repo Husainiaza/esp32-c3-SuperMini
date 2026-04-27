@@ -1,13 +1,14 @@
 # **PERSEDIAAN AWAL ESP32C3 Mini**
 
 ## *Pengenalan ESP32 C Mini*
-ESP32 Super Mini adalah Developement Board berasaskan dari Cip Espressif ESP32-C3 iaitu sebahagian dari Keluarga ESP32. Kelebihannya berbanding dengan ESP32 yang lain adalah papan litarnya yang kecil dan 
-pengunaannya tenaga yang rendah ketika mod deep sleep.
-## install DS18B20 Library
-DallasTemperature by Miles Burton
-pastikan install ALL
+ESP32 Super Mini adalah Developement Board berasaskan dari Cip Espressif ESP32-C3 iaitu sebahagian dari Keluarga ESP32. Kelebihannya berbanding dengan ESP32 yang lain adalah papan litarnya yang kompak  dan 
+pengunaannya tenaga dengan kecekapan kuasayang rendah ketika mod deep sleep. Ianya terbina dengan siap dengan WiFi dan Bluetooth. ESP32-C3 Super mini adalah cip sigle-core dengan akitektur pemproses RiSC-V 32Bit.
 
-## install SSD1306 OLED Library
+
+## ttttttt
+xxxxxxx
+
+##tttttttt
 xxxxxxxxx
 
 # SENSOR DS18B20 - Baca suhu
