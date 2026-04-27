@@ -1,6 +1,6 @@
 # **PERSEDIAAN AWAL ESP32C3 Mini**
 
-## * Pengenalan ESP32 C Muni *
+## *Pengenalan ESP32 C Mni*
 xxxxxxx
 ## install DS18B20 Library
 DallasTemperature by Miles Burton
