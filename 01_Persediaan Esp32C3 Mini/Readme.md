@@ -9,7 +9,8 @@ pengunaannya tenaga dengan kecekapan kuasayang rendah ketika mod deep sleep. Ian
 <img width="915" height="485" alt="image" src="https://github.com/user-attachments/assets/3c1cb27b-ca9c-4549-bbbd-9f5d6dff6cd6" />
 
 
-##tttttttt
+## *Koding ESP32 C3 dengan Arduino IDE* 
+
 xxxxxxxxx
 
 # SENSOR DS18B20 - Baca suhu
