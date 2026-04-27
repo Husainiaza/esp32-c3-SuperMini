@@ -18,7 +18,7 @@ pengunaannya tenaga dengan kecekapan kuasayang rendah ketika mod deep sleep. Ian
 
 <img width="842" height="549" alt="image" src="https://github.com/user-attachments/assets/5140f2a3-d8a3-4bba-a1ee-d341b95b975e" />
 
-install esp32 3.x atau update jika versi lama. bila sudah siap install button akan menunjukkan perkataan REMOVE
+install esp32 3.x atau update jika versi lama. bila sudah siap install button akan menunjukkan perkataan REMOVE (sepeti dalam rajah di atas)
 
 
 # SENSOR DS18B20 - Baca suhu
