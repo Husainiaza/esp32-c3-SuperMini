@@ -14,6 +14,12 @@ pengunaannya tenaga dengan kecekapan kuasayang rendah ketika mod deep sleep. Ian
 **1 - Muat Turun ARduino IDE dan install dalam PC anda ( https://www.arduino.cc/en/software/ )**
 <img width="1408" height="612" alt="image" src="https://github.com/user-attachments/assets/2e063f55-0d5f-425f-9542-eedec33fb3d4" />
 
+**1 - Selepas Install Arduino IDE kita perlu install pula Board ESP32**
+
+<img width="842" height="549" alt="image" src="https://github.com/user-attachments/assets/5140f2a3-d8a3-4bba-a1ee-d341b95b975e" />
+
+install esp32 3.x atau update jika versi lama. bila sudah siap install button akan menunjukkan perkataan REMOVE
+
 
 # SENSOR DS18B20 - Baca suhu
 
