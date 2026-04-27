@@ -8,8 +8,10 @@
 
 
 
-## Tajuk
-XXXXXXXX
+## Litar Bekalan Kuasa
+
+<img width="408" height="236" alt="image" src="https://github.com/user-attachments/assets/934bdc8b-771b-43dc-a78f-bedd5787da12" />
+
 # SENSOR xxxxxx
 ## Section 3 : xxxxxx
 ```
