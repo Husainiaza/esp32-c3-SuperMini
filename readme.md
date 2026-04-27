@@ -3,15 +3,13 @@
 
 <img width="1124" height="775" alt="image" src="https://github.com/user-attachments/assets/8ec185af-bf3f-4186-80b0-86212c0f5705" />
 
-![Uploading image.png…]()
 
 
-## install MQTT Library
-MQTT by Joel Gaehwiler
 
-# SENSOR DS18B20 - Baca suhu
-
-## Section 3 : void loop dengan if condition
+## Tajuk
+XXXXXXXX
+# SENSOR xxxxxx
+## Section 3 : xxxxxx
 ```
 
 kod to  copy here
