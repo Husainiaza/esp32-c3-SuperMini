@@ -21,7 +21,7 @@ pengunaannya tenaga dengan kecekapan kuasayang rendah ketika mod deep sleep. Ian
 Install esp32 3.x atau update jika versi lama. bila sudah siap install button akan menunjukkan perkataan REMOVE (sepeti dalam rajah di atas)
 
 **3 : Menetapkan Jenis ESP32 C3 yang hendak  digunakan**
-```
+
 <img width="881" height="516" alt="image" src="https://github.com/user-attachments/assets/f3459e72-fd74-4494-8fe2-b649b0a33fbe" /> 
 
 
