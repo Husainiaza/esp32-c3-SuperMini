@@ -29,9 +29,9 @@ Install esp32 3.x atau update jika versi lama. bila sudah siap install button ak
 
 Sambungkan ESP32 C3 Super Mini ke komputer bagi tujuanbesedia untuk muat turunkan kod dari Komp[uter ke ESP32 menggunakan port USB
 Langkah :
-Hold down the BOOT button.
-Press and release the RESET button (while still holding BOOT).
-Then release the BOOT button.
+*Hold down the BOOT button.*
+*Press and release the RESET button (while still holding BOOT).*
+*Then release the BOOT button.*
 
 ```
 ## 
