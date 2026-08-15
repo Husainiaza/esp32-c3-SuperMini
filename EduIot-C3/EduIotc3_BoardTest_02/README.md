@@ -56,6 +56,32 @@ Serial.print(temp);
 Serial.println("°C ");
 
 ```
+```
+#include "DHT.h"
+```
+
+```
+#define DHTPIN 4     
+#define DHTTYPE DHT21
+
+DHT dht(DHTPIN, DHTTYPE);
+```
+## Section 2 : void setup
+```
+dht.begin();
+```
+## Section 3 : void loop
+```
+float humid = dht.readHumidity();
+float temp = dht.readTemperature();
+
+Serial.print("Humidity: ");
+Serial.println(humid);
+Serial.print("Temperature: ");
+Serial.print(temp);
+Serial.println("°C ");
+
+```
 # DIGITAL SENSOR INPUT
 
 ## Section 3 : void loop - baca semua jenis analog sensor
@@ -71,7 +97,43 @@ Serial.println(dataSW2);
 ## Section 3 : void loop - baca semua jenis analog sensor
 ### Contoh analog sensor LDR
 ```
+```
 int dataLDR = analogRead(sensorLDR);
 Serial.print("Cahaya: ");
 Serial.println(dataLDR); 
 ```
+
+# ULTRASONIC
+## Section 1: Header
+```
+#define TRIG_PIN 20
+#define ECHO_PIN 21
+
+long duration;
+float distance;
+```
+## Section 2 : void setup
+```
+pinMode(TRIG_PIN, OUTPUT);
+pinMode(ECHO_PIN, INPUT);
+
+```
+## Section 3 : void loop
+```
+digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+
+  duration = pulseIn(ECHO_PIN, HIGH, 30000);
+
+  distance = duration * 0.0343 / 2;
+
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+```
+
+
