@@ -105,6 +105,8 @@ Serial.println(dataLDR);
 # ULTRASONIC
 ## Section 1: Header
 ```
+#include <Adafruit_SSD1306.h>
+
 #define TRIG_PIN 20
 #define ECHO_PIN 21
 
@@ -134,4 +136,78 @@ Serial.print(distance);
 Serial.println(" cm");
 ```
 
+# OLED DISPLAY
+## Section 1: Header
+```
+#include <Adafruit_SSD1306.h>
+```
+
+```
+#define SCREEN_WIDTH 128 // OLED display width, in pixels
+#define SCREEN_HEIGHT 64 // OLED display height, in pixels
+
+Adafruit_SSD1306 paparOled(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+```
+## Section 2 : void setup
+```
+ if(!paparOled.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { // Address 0x3D for 128x64
+    Serial.println(F("SSD1306 allocation failed"));
+    for(;;);
+  }
+
+  paparOled.clearDisplay();
+  paparOled.setTextSize(1);
+  paparOled.setTextColor(WHITE);
+  paparOled.setCursor(0,0);
+  paparOled.println("--- ESP32C3- MINI ---");
+  paparOled.setCursor(0,10);
+  paparOled.println("K. Komuniti Sbg Jaya");
+  paparOled.setCursor(0,20);
+  paparOled.println("--------------------");
+  paparOled.display();
+  delay(3000);
+
+```
+## Section 3 : void loop
+```
+ paparOled.clearDisplay();
+  paparOled.setTextSize(1);
+  paparOled.setTextColor(WHITE);
+  paparOled.setCursor(0,0);
+  //paparOled.println("--- ESP32C3- MINI ---");
+  paparOled.println("--  EduIot-Esp32C3 --");
+   paparOled.setCursor(0,10);
+  paparOled.println("--------------------");
+  // ---- display Humidity 
+  paparOled.setCursor(0,20);
+  paparOled.print("HUM:");
+  paparOled.print(humid,0);
+  paparOled.print(" %");
+  // ---- display Temperature 
+  paparOled.setCursor(60,20);
+  paparOled.print("TMP:");
+  paparOled.print(temp,0);
+  paparOled.print(" C");
+  // ---- display Light intensity 
+  paparOled.setCursor(0,30);
+  paparOled.print("LDR:");
+  paparOled.print(dataLDR);
+
+  paparOled.setCursor(60,30);
+  paparOled.print("ANG:");
+  paparOled.print(dataVR);
+
+  paparOled.setCursor(0,40);
+  paparOled.print("Jarak:");
+  paparOled.print(distance,1);
+  paparOled.print(" cm");
+
+  paparOled.setCursor(0,50);
+  paparOled.print("SW2:");
+  paparOled.print(dataSW2);
+  paparOled.setCursor(40,50);
+  paparOled.print("SW4:");
+  paparOled.print(dataSW4);
+ paparOled.display();
+```
 
