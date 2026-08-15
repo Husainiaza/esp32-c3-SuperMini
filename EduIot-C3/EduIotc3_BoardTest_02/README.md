@@ -97,7 +97,6 @@ Serial.println(dataSW2);
 ## Section 3 : void loop - baca semua jenis analog sensor
 ### Contoh analog sensor LDR
 ```
-```
 int dataLDR = analogRead(sensorLDR);
 Serial.print("Cahaya: ");
 Serial.println(dataLDR); 
