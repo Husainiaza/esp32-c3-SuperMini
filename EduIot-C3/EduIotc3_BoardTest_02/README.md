@@ -25,3 +25,34 @@ Jadual PIN Sambungan GPIO
 | OLED      |  `SCL`              | **OLED LED**         |
 | Trigger   |  `20`                | **Ultrasonic**       |
 | Echo      |  `21`                | **Ultrasonic**       |
+
+
+
+# SENSOR DHT22 (AM2301) - baca suhu dan humiditi
+## Section 1: Header
+```
+#include "DHT.h"
+```
+
+```
+#define DHTPIN 4     
+#define DHTTYPE DHT21
+
+DHT dht(DHTPIN, DHTTYPE);
+```
+## Section 2 : void setup
+```
+dht.begin();
+```
+## Section 3 : void loop
+```
+float humid = dht.readHumidity();
+float temp = dht.readTemperature();
+
+Serial.print("Humidity: ");
+Serial.println(humid);
+Serial.print("Temperature: ");
+Serial.print(temp);
+Serial.println("°C ");
+
+```
