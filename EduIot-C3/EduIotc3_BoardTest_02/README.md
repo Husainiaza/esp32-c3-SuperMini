@@ -12,10 +12,10 @@ Jadual PIN Sambungan GPIO
 
 | Input     | Nombor GPIO Pin     | Aktuator/Sensor      |
 | :-------- | :-------            | :------------------- |
-| LED1      |  `17`               | **Motor A DC Kiri**  |
-| LED2      |  `12`               | **Motor A DC Kiri**  |
-| LED3      |  `18`               | **Motor B DC Kanan** |
-| Buzzer    |  `19`               | **Buzzer(bunyi)**    |
+| LED1      |  `06`               | **Motor A DC Kiri**  |
+| LED2      |  `07`               | **Motor A DC Kiri**  |
+| LED3      |  `10`               | **Motor B DC Kanan** |
+| Buzzer    |  `00`               | **Buzzer(bunyi)**    |
 | DHT       |  `05`               | **Buzzer(bunyi)**    |
 | LDR       |  `02`               | **Buzzer(bunyi)**    |
 | VR        |  `01`               | **Buzzer(bunyi)**    |
