@@ -210,6 +210,6 @@ Adafruit_SSD1306 paparOled(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
   paparOled.setCursor(40,50);
   paparOled.print("SW4:");
   paparOled.print(dataSW4);
- paparOled.display();
+  paparOled.display();
 ```
 
