@@ -56,6 +56,15 @@ Serial.print(temp);
 Serial.println("°C ");
 
 ```
+# DIGITAL SENSOR INPUT
+
+## Section 3 : void loop - baca semua jenis analog sensor
+### Contoh switch INPUT
+```
+int dataSW2 = digitalRead(sw2);
+Serial.print("SW2: ");
+Serial.println(dataSW2);  
+```
 
 # ANALOG SENSOR INPUT
 
