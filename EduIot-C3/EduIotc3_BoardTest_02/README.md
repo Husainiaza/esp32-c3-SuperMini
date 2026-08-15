@@ -1,5 +1,7 @@
 # Edu-IoT-C# Learning IoT Board
 
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/ee325514-92cd-4d4b-818f-56fb320890e2" />
+
 Panduan Edu-IoT-C3
 
 ## Rujukan Pin
