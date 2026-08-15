@@ -56,3 +56,13 @@ Serial.print(temp);
 Serial.println("°C ");
 
 ```
+
+# ANALOG SENSOR INPUT
+
+## Section 3 : void loop - baca semua jenis analog sensor
+### Contoh analog sensor LDR
+```
+int dataLDR = analogRead(sensorLDR);
+Serial.print("Cahaya: ");
+Serial.println(dataLDR); 
+```
