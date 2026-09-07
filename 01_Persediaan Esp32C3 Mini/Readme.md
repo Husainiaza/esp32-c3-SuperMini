@@ -2,7 +2,8 @@
 
 ## *Pengenalan ESP32 C Mini*
 ESP32 Super Mini adalah Developement Board berasaskan dari Cip Espressif ESP32-C3 iaitu sebahagian dari Keluarga ESP32. Kelebihannya berbanding dengan ESP32 yang lain adalah papan litarnya yang kompak  dan 
-pengunaannya tenaga dengan kecekapan kuasayang rendah ketika mod deep sleep. Ianya terbina dengan siap dengan WiFi dan Bluetooth. ESP32-C3 Super mini adalah cip sigle-core dengan akitektur pemproses RiSC-V 32Bit.
+pengunaannya tenaga dengan kecekapan kuasa yang rendah ketika mod deep sleep. Ianya terbina dengan siap dengan WiFi dan Bluetooth. ESP32-C3 Super mini adalah cip sigle-core dengan akitektur pemproses RiSC-V 32Bit.
+Ia mempunyai 16 pin, dengan 11 GPIO boleh atur cara yang menyokong ADC, PWM, UART, I2C, dan SPI.
 
 
 ## ESP32-C3 Super Mini - Rajah Kedudukan Pin (Pin Layout)
