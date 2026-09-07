@@ -5,6 +5,26 @@ ESP32 Super Mini adalah Developement Board berasaskan dari Cip Espressif ESP32-C
 pengunaannya tenaga dengan kecekapan kuasa yang rendah ketika mod deep sleep. Ianya terbina dengan siap dengan WiFi dan Bluetooth. ESP32-C3 Super mini adalah cip sigle-core dengan akitektur pemproses RiSC-V 32Bit.
 Ia mempunyai 16 pin, dengan 11 GPIO boleh atur cara yang menyokong ADC, PWM, UART, I2C, dan SPI.
 
+```http
+Jadual PIN Sambungan GPIO
+```
+
+| Input     | Nombor GPIO Pin     | Aktuator/Sensor                      |
+| :-------- | :-------            | :-------------------                 |
+| GPIO 0    |  `00`               | **General-purpose I/O, ADC1, PWM**            |
+| GPIO 1    |  `01`               | **General-purpose I/O, ADC1, PWM**            |
+| GPIO 2    |  `02`               | **General-purpose I/O ADC1, Strapping Pin (Boot Mode) (avoid for general use)**            |
+| GPIO 3    |  `03`               | **General-purpose I/O, PWM**    |
+| GPIO 4    |  `03`               | **SW Active HIGH**   |
+| GPIO 0    |  `00`               | **Buzzer(bunyi)**    |
+| GPIO 0        |  `05`               | **Suhu dan Humid**   |
+| GPIO 0        |  `02`               | ** LDR **            |
+| GPIO 0         |  `01`               | ** Potentiometer**   |
+| GPIO 0       |  `SDA`              | **OLED LED**         |
+| GPIO 0       |  `SCL`              | **OLED LED**         |
+| GPIO 0    |  `20`                | **Ultrasonic**       |
+| GPIO 0       |  `21`                | **Ultrasonic**       |
+
 
 ## ESP32-C3 Super Mini - Rajah Kedudukan Pin (Pin Layout)
 
