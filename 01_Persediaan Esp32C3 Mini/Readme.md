@@ -15,16 +15,15 @@ Jadual PIN Sambungan GPIO
 | GPIO 1    |  `01`               | **General-purpose I/O, ADC1, PWM**            |
 | GPIO 2    |  `02`               | **General-purpose I/O ADC1, Strapping Pin (Boot Mode) (avoid for general use)**            |
 | GPIO 3    |  `03`               | **General-purpose I/O, PWM**    |
-| GPIO 4    |  `03`               | **SW Active HIGH**   |
-| GPIO 0    |  `00`               | **Buzzer(bunyi)**    |
-| GPIO 0        |  `05`               | **Suhu dan Humid**   |
-| GPIO 0        |  `02`               | ** LDR **            |
-| GPIO 0         |  `01`               | ** Potentiometer**   |
-| GPIO 0       |  `SDA`              | **OLED LED**         |
-| GPIO 0       |  `SCL`              | **OLED LED**         |
-| GPIO 0    |  `20`                | **Ultrasonic**       |
-| GPIO 0       |  `21`                | **Ultrasonic**       |
-
+| GPIO 4    |  `04`               | **General-purpose I/O, PWM, default SPI SCK pin**   |
+| GPIO 5    |  `05`               | **General-purpose I/O, PWM, default SPI MISO pin**    |
+| GPIO 6    |  `06`               | **General-purpose I/O, PWM, default SPI MOSI pin**   |
+| GPIO 7    |  `07`               | **General-purpose I/O, PWM, default SPI SS pin**            |
+| GPIO 8    |  `08`               | **onboard LED (active low); Strapping Pin (avoid for general use); Default I2C SDA pin**   |
+| GPIO 9    |  `09`               | **BOOT Button, Strapping Pin (avoid for general use), Default I2C SCL pin**         |
+| GPIO 10   |  `10`               | **General-purpose I/O, PWM**       |
+| GPIO 20   |  `20`               | **General-purpose I/O, PWM, default UART RX Pin**       |
+| GPIO 21   |  `20`               | **General-purpose I/O, PWM, default UART TX Pin**       |
 
 ## ESP32-C3 Super Mini - Rajah Kedudukan Pin (Pin Layout)
 
