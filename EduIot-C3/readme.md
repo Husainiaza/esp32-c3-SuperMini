@@ -57,16 +57,5 @@ Serial.println("°C ");
 
 ```
 
-## Section 2 : void setup
-```
-dht.begin();
-```
-## Section 3 : void loop
-```
-float humid = dht.readHumidity();
-float temp = dht.readTemperature();
-
-Serial.print("Humidity: ");
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
 No file chosen
 Attach files by dragging & dropping, selecting or pasting them.
