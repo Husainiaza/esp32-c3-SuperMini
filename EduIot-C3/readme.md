@@ -56,16 +56,7 @@ Serial.print(temp);
 Serial.println("°C ");
 
 ```
-```
-#include "DHT.h"
-```
 
-```
-#define DHTPIN 4     
-#define DHTTYPE DHT21
-
-DHT dht(DHTPIN, DHTTYPE);
-```
 ## Section 2 : void setup
 ```
 dht.begin();
