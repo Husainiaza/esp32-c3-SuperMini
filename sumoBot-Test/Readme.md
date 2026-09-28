@@ -28,7 +28,7 @@ Jadual PIN Sambungan GPIO
 | GPIO 9    |  `09`    |   SCL         | **BOOT Button, Strapping Pin (avoid for general use), Default I2C SCL pin**                |
 | GPIO 10   |  `10`    |   GPIO10      | **GP I/O, PWM**       |
 | GPIO 20   |  `20`    |    RX         | **GP I/O, PWM, default UART RX Pin**   |
-| GPIO 21   |  `20`    |    TX         | **GPe I/O, PWM, default UART TX Pin**  |
+| GPIO 21   |  `21`    |    TX         | **GPe I/O, PWM, default UART TX Pin**  |
 
 
 ## *Koding ESP32 C3 dengan Arduino IDE* 
