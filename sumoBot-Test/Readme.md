@@ -16,19 +16,19 @@ Jadual PIN Sambungan GPIO
 
 | Input     | GPIO Pin | Connection    | Aktuator/Sensor                      |
 | :-------- | :------- | :-------      | :-------------------                 |
-| GPIO 0    |  `00`    |               | **GP I/O, ADC1, PWM**            |
-| GPIO 1    |  `01`    |               | **GP I/O, ADC1, PWM**            |
-| GPIO 2    |  `02`    |      | **GP I/O ADC1, Strapping Pin (Boot Mode) (avoid for general use)**            |
-| GPIO 3    |  `03`    |     | **GP I/O, PWM**    |
-| GPIO 4    |  `04`    |    | **GP I/O, PWM, default SPI SCK pin**   |
-| GPIO 5    |  `05`    |   | **GP I/O, PWM, default SPI MISO pin**    |
-| GPIO 6    |  `06`    |  | **GP I/O, PWM, default SPI MOSI pin**   |
-| GPIO 7    |  `07`    | | **GP I/O, PWM, default SPI SS pin**            |
-| GPIO 8    |  `08`    | | **onboard LED (active low); Strapping Pin (avoid for general use); Default I2C SDA pin**   |
-| GPIO 9    |  `09`    |  | **BOOT Button, Strapping Pin (avoid for general use), Default I2C SCL pin**         |
-| GPIO 10   |  `10`    |  | **GP I/O, PWM**       |
-| GPIO 20   |  `20`    |   | **GP I/O, PWM, default UART RX Pin**       |
-| GPIO 21   |  `20`    |    | **GPe I/O, PWM, default UART TX Pin**       |
+| GPIO 0    |  `00`    | motorkiriA1   | **GP I/O, ADC1, PWM**            |
+| GPIO 1    |  `01`    | motorkiriA2   | **GP I/O, ADC1, PWM**            |
+| GPIO 2    |  `02`    |     -         | **GP I/O ADC1, Strapping Pin (Boot Mode) (avoid for general use)**            |
+| GPIO 3    |  `03`    |motorkananB1   | **GP I/O, PWM**    |
+| GPIO 4    |  `04`    |motorkananB2   | **GP I/O, PWM, default SPI SCK pin**   |
+| GPIO 5    |  `05`    |BUZZER         | **GP I/O, PWM, default SPI MISO pin**    |
+| GPIO 6    |  `06`    |               | **GP I/O, PWM, default SPI MOSI pin**   |
+| GPIO 7    |  `07`    |               | **GP I/O, PWM, default SPI SS pin**            |
+| GPIO 8    |  `08`    |   SDA         | **onboard LED (active low); Strapping Pin (avoid for general use); Default I2C SDA pin**   |
+| GPIO 9    |  `09`    |   SCL         | **BOOT Button, Strapping Pin (avoid for general use), Default I2C SCL pin**         |
+| GPIO 10   |  `10`    |               | **GP I/O, PWM**       |
+| GPIO 20   |  `20`    |               | **GP I/O, PWM, default UART RX Pin**       |
+| GPIO 21   |  `20`    |               | **GPe I/O, PWM, default UART TX Pin**       |
 
 
 ## *Koding ESP32 C3 dengan Arduino IDE* 
