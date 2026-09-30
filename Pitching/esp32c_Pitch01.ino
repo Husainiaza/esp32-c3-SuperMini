@@ -15,9 +15,8 @@
 
 #define relay01     6  // digital OUTPUT - RELAY 1
 #define relay02     7  // digital OUTPUT - RELAY 2
-#define led3        10  // digital OUTPUT - RELAY 2
-#define buzzer      2  // digital OUTPUT - BUZZER
-#define sensorLDR    3
+#define buzzer      10  // digital OUTPUT - BUZZER
+#define sensorLDR   3
 #define sensorVR    1  // analog INPUT   - Sensor Cahaya
 #define DHTPIN      4     
 #define DHTTYPE DHT22
@@ -47,7 +46,6 @@ Adafruit_SSD1306 paparOled(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 void setup() {
   pinMode(relay01,OUTPUT);
   pinMode(relay02,OUTPUT);
-  pinMode(led3,OUTPUT);
   pinMode(buzzer,OUTPUT); 
  
   Serial.begin(115200); // initialize serial
@@ -74,75 +72,3 @@ void setup() {
 //##################  Seksyen 2 - TAMAT #############################
 
 //==============  Seksyen 3 - Fungsi Utama (LOOP) ===================
-//-------------------------------------------------------------------
-void loop() {
-
- //-----LED ------------------------------------------------------------------
-  digitalWrite(relay01,HIGH);
-  digitalWrite(relay02,HIGH);
-  digitalWrite(led3,HIGH);
-  digitalWrite(buzzer,LOW);
-  delay(500);
-  digitalWrite(relay01,LOW);
-  digitalWrite(relay02,LOW);
-  digitalWrite(led3,LOW);
-  digitalWrite(buzzer,HIGH);
-  delay(500);
-
- //------SENSOR 1 -------------------------------------------------------------
-    
-  int dataLDR = analogRead(sensorLDR);
-  Serial.print("Cahaya: ");
-  Serial.println(dataLDR);  
-
- //------SENSOR 1 -------------------------------------------------------------
-    
-  int dataVR = analogRead(sensorVR);
-  Serial.print("Cahaya: ");
-  Serial.println(dataVR);  
-
- //------SENSOR 2 -------------------------------------------------------------
-  float humid = dht.readHumidity();
-  float temp = dht.readTemperature();
-
-  Serial.print("Humidity: ");
-  Serial.println(humid);
-  Serial.print("Temperature: ");
-  Serial.print(temp);
-  Serial.println("°C ");
-
- //------DISPLAY OLED   -----------------------------------------------------------
-
-  paparOled.clearDisplay();
-  paparOled.setTextSize(1);
-  paparOled.setTextColor(WHITE);
-  paparOled.setCursor(0,0);
-  //paparOled.println("--- ESP32C3- MINI ---");
-  paparOled.println("--  EduIot-Esp32C3 --");
-  paparOled.setCursor(0,10);
-  paparOled.println("K. Komuniti Sbg Jaya");
-  paparOled.setCursor(0,20);
-  paparOled.println("--------------------");
-  // ---- display Humidity 
-  paparOled.setCursor(0,30);
-  paparOled.print("HUM:");
-  paparOled.print(humid,0);
-  paparOled.print(" %");
-  // ---- display Temperature 
-  paparOled.setCursor(60,30);
-  paparOled.print("TMP:");
-  paparOled.print(temp,0);
-  paparOled.print(" C");
-  // ---- display Light intensity 
-  paparOled.setCursor(0,40);
-  paparOled.print("LDR:");
-  paparOled.print(dataLDR);
-
-  paparOled.setCursor(60,40);
-  paparOled.print("ANG:");
-  paparOled.print(dataVR);
-  paparOled.display();
- //-----------end ----------------------------------
-
-}
-//##################  Seksyen 3 - TAMAT #############################
